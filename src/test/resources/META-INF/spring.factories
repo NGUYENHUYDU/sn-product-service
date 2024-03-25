@@ -1,0 +1,5 @@
+org.springframework.test.context.ContextCustomizerFactory = com.sona.product.\
+    config.SqlTestContainersSpringContextCustomizerFactory,com.sona.product.\
+    config.TestContainersSpringContextCustomizerFactory,com.sona.product.config.\
+    RedisTestContainersSpringContextCustomizerFactory,com.sona.product.config.\
+    KafkaTestContainersSpringContextCustomizerFactory
